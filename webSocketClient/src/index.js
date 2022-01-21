@@ -14,8 +14,8 @@ const client = new W3CWebSocket('ws://127.0.0.1:8000');
 export default class App extends Component {
 
   state ={
-    userName: '',
-    isLoggedIn: false,
+    userName: 'jhdk',
+    isLoggedIn: true,
     messages: []
   }
 
