@@ -9,7 +9,9 @@ const { Search } = Input;
 const { Text } = Typography;
 const { Meta } = Card;
 
-const client = new W3CWebSocket('wss://web-chat123.herokuapp.com/');
+//const client = new W3CWebSocket('wss://web-chat123.herokuapp.com/');
+
+const client = new W3CWebSocket('ws://localhost:3003/');
 
 export default class App extends Component {
 
